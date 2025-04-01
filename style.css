@@ -1,7 +1,7 @@
 body {
     background-color: #000;
     color: #fff;
-    font-family: Arial, sans-serif;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-align: center;
     margin: 0;
     padding: 0;
@@ -40,7 +40,7 @@ body {
   }
   
   .number-button:hover {
-    background-color: #218838;
+    background-color: #00ff00;
   }
   
   /* Números selecionados (antes do pagamento) */
@@ -64,7 +64,7 @@ body {
   /* Botões gerais */
   button {
     padding: 10px 20px;
-    background-color: #28a745;
+    background-color:rgb(3, 192, 0);
     border: none;
     color: #fff;
     font-size: 18px;

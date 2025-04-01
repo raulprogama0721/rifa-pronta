@@ -122,7 +122,7 @@ function loadPaymentPage() {
   paymentValueEl.textContent = total.toFixed(2);
   
   // Define o código de pagamento fixo
-  document.getElementById('paymentCode').value = "ferrazadrian03@gmail.com";
+  document.getElementById('paymentCode').value = "ferrazadrian103@gmail.com";
 }
 
 // Copia o código de pagamento para a área de transferência
