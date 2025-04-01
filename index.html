@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rifa - Escolha de Números</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Escolha seus Números</h1>
+    
+    <!-- Área para os números -->
+    <div id="numbersContainer" class="numbers-container"></div>
+    
+    <!-- Exibição do valor total -->
+    <p id="totalValue" class="total-value">Total a pagar: R$ 0,00</p>
+    
+    <!-- Seção de login (para preencher e depois registrar a compra) -->
+    <h2>Informe seus Dados</h2>
+    <div class="login-section">
+      <input type="text" id="name" placeholder="Nome">
+      <input type="text" id="phone" placeholder="Telefone">
+    </div>
+    
+    <button id="confirmButton" onclick="confirmAndGoToPayment()">Confirmar e Prosseguir para Pagamento</button>
+    <button id="resetButton" onclick="resetRaffle()">Resetar Rifa</button>
+    
+    <!-- Tabela para exibir as compras realizadas -->
+    <h2>Compras Realizadas</h2>
+    <table id="purchasesTable">
+      <thead>
+        <tr>
+          <th>Nome</th>
+          <th>Telefone</th>
+          <th>Números Comprados</th>
+        </tr>
+      </thead>
+      <tbody>
+        <!-- As compras serão listadas aqui -->
+      </tbody>
+    </table>
+  </div>
+  
+  <script src="script.js"></script>
+</body>
+</html>

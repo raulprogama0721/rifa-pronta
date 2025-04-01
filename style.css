@@ -1,0 +1,104 @@
+body {
+    background-color: #000;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 2px solid #fff;
+    border-radius: 10px;
+  }
+  
+  h1, h2 {
+    color: #4CAF50;
+  }
+  
+  /* Área de números */
+  .numbers-container {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    gap: 5px;
+    margin-bottom: 20px;
+    max-height: 400px;
+    overflow-y: auto;
+  }
+  
+  .number-button {
+    background-color: #28a745;
+    border: 1px solid #fff;
+    color: #fff;
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 12px;
+  }
+  
+  .number-button:hover {
+    background-color: #218838;
+  }
+  
+  /* Números selecionados (antes do pagamento) */
+  .number-button.selected {
+    background-color: #dc3545;
+  }
+  
+  /* Números confirmados (pagos) */
+  .number-button.chosen {
+    background-color: #c82333;
+    color: #fff;
+    cursor: not-allowed;
+  }
+  
+  /* Valor total */
+  .total-value {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  
+  /* Botões gerais */
+  button {
+    padding: 10px 20px;
+    background-color: #28a745;
+    border: none;
+    color: #fff;
+    font-size: 18px;
+    margin: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #218838;
+  }
+  
+  /* Inputs de login */
+  .login-section input {
+    padding: 10px;
+    margin: 5px;
+    width: 40%;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  /* Tabela de compras */
+  table {
+    width: 100%;
+    margin: 20px auto;
+    border-collapse: collapse;
+  }
+  
+  table, th, td {
+    border: 1px solid #fff;
+  }
+  
+  th, td {
+    padding: 10px;
+    text-align: center;
+  }
+  
